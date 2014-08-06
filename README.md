@@ -1,2 +1,2 @@
-enable_ac7260
+Enabling Intel Dual Band Wireless-AC 7260 on Intel Galileo with Yocto Linux
 =============

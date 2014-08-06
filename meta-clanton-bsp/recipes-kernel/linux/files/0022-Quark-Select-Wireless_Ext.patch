@@ -1,0 +1,12 @@
+diff --git a/drivers/net/wireless/iwlwifi/Kconfig b/drivers/net/wireless/iwlwifi/Kconfig
+index 5cf4323..b9eadae 100644
+--- a/drivers/net/wireless/iwlwifi/Kconfig
++++ b/drivers/net/wireless/iwlwifi/Kconfig
+@@ -7,6 +7,7 @@ config IWLWIFI
+ 	select LEDS_TRIGGERS
+ 	select MAC80211_LEDS
+ 	select IWLDVM
++	select WIRELESS_EXT
+ 	---help---
+ 	  Select to build the driver supporting the:
+ 
